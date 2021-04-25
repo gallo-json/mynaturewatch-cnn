@@ -25,7 +25,7 @@ This is just an example of the output. The number of non-animal photos has been 
 
 Best test accuracy: 98.2%
 
-![output](/resources/files.png)
+![output](docs/files.png)
 ## Dataset
 The dataset contains 372 pictures of animals and 1,934 pictures of other things (no animals). I prefer not to upload the dataset because it includes human faces of people I know (very random things to add more variety).
 
