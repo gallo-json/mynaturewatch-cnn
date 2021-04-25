@@ -10,11 +10,7 @@ The [MyNaturewatch DIY camera](https://mynaturewatch.net/daylight-camera-instruc
 
 The problem is, more often than not, the camera takes pictures of anything that moves like leaves. I find myself scrolling through an endless gallery of nothing and there are very few pictures of actual animals. This network solves that problem.
 
-![no animal](/resources/2020-05-14-14-38-41.jpg)
-
-vs
-
-![yes animal](/resources/2020-05-14-08-31-45.jpg)
+![vs](docs/comparison.png)
 
 ## What does this program do?
 
