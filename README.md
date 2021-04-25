@@ -1,7 +1,14 @@
 # MyNaturewatch Convolutional Neural Network
 
+## Date 
+
+August 2020. During COVID lockdown, summer (no school).
+
 ## Problem
-The [MyNaturewatch DIY camera](https://mynaturewatch.net/daylight-camera-instructions) is a great DIY birding/outdoors camera to take pictures of wildlife automatically. It uses a Raspberry Pi Zero and a Pi Zero camera + sensor to detect when there is movement and takes a picture of it. The problem is, more often than not, the camera takes pictures of anything that moves like leaves. I find myself scrolling through an endless gallery of nothing and there are very few pictures of actual animals. This network solves that problem.
+
+The [MyNaturewatch DIY camera](https://mynaturewatch.net/daylight-camera-instructions) is a great DIY wildlife camera I made during COVID lockdown. It uses a Raspberry Pi Zero and a Pi Zero camera + sensor to detect when there is movement and takes a picture of it. 
+
+The problem is, more often than not, the camera takes pictures of anything that moves like leaves. I find myself scrolling through an endless gallery of nothing and there are very few pictures of actual animals. This network solves that problem.
 
 ![no animal](/resources/2020-05-14-14-38-41.jpg)
 
@@ -10,13 +17,17 @@ vs
 ![yes animal](/resources/2020-05-14-08-31-45.jpg)
 
 ## What does this program do?
+
 - Download all the photos from the Naturewatch Camera (RasPi)
 - Classify them
 - Make directories based on the dates of the animal pictures in the ~/Pictures folder in your host machine
 - Delete the photos with no animals on it
 
 ## Result
-This is just an example of the output. The number of non-animal photos has been reduced by a lot.
+
+This is just an example of the output. The number of non-animal photos has been reduced by a lot (out of 100 pictures, 5 false positives).
+
+Best test accuracy: 98.2%
 
 ![output](/resources/files.png)
 ## Dataset
@@ -86,5 +97,7 @@ Non-trainable params: 384
 _________________________________________________________________
 ```
 If someone knows how to make this better send pull request.
+
 ## Disclaimer
+
 I am not part of the MyNaturewatch team. I am just a kid learning about machine learning.
