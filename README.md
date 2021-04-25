@@ -31,11 +31,23 @@ Best test accuracy: 98.2%
 
 ## Dataset
 
-The dataset contains 372 pictures of animals and 1,934 pictures of other things (non-animals).
+The dataset contains 372 pictures of animals and 1,934 pictures of other things (non-animals). It was compiled using pictures I took with my camera, and scraping some off the internet.
 
 There is an obvious bias in the dataset; the non-animal pictures outnumber the animal pictures 5 to 1. This teaches the model that there are more non-animal pictures and that animal pictures are rarer.
 
+## Tech stack
+
+- Python3
+- Keras/TensorFlow API
+- SCP/SSH
+- Python OpenCV
+- NumPy
+- Matplotlib
+
 ## Network
+
+I'm using a custom neural network for now.
+
 ```
 Model: "sequential"
 _________________________________________________________________
@@ -96,8 +108,6 @@ Trainable params: 1,790,626
 Non-trainable params: 384
 _________________________________________________________________
 ```
-
-I'm using a custom neural network for now.
 
 ## Disclaimer
 
