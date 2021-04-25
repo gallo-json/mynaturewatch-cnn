@@ -12,8 +12,15 @@ Python OpenCV wasn't working like it was supposed to. I think it was because I c
 
 ## What I liked
 
-This was my first time building a real model by myself, from start to finish.
+This was my first time building a real model by myself, from start to finish. There was some feeling of accomplishment at the end, because I solved a problem I was facing using machine learning.
 
 ## Improvements
 
+### Transfer Learning
+
+Using a pre-built model would hopefully increase the test accuracy / decrease loss, but it is not as fun as building your own model. Denfintely doable, though.
+
 ## What I learned
+
+- TensorFlow API
+- Python SCP/SSH APIs
