@@ -12,6 +12,8 @@ The problem is, more often than not, the camera takes pictures of anything that 
 
 ![vs](docs/comparison.png)
 
+How should a computer know what picture to keep, and which one to discard?
+
 ## What does this program do?
 
 - Download all the photos from the Naturewatch Camera (RasPi)
@@ -26,10 +28,12 @@ This is just an example of the output. The number of non-animal photos has been 
 Best test accuracy: 98.2%
 
 ![output](docs/files.png)
-## Dataset
-The dataset contains 372 pictures of animals and 1,934 pictures of other things (no animals). I prefer not to upload the dataset because it includes human faces of people I know (very random things to add more variety).
 
-There is an obvious bias in the dataset; the non-animal pictures outnumber the animal pictures 5 to 1. This teaches the model that there are more non-animal pictures and that animal pictures are rarer. 
+## Dataset
+
+The dataset contains 372 pictures of animals and 1,934 pictures of other things (non-animals).
+
+There is an obvious bias in the dataset; the non-animal pictures outnumber the animal pictures 5 to 1. This teaches the model that there are more non-animal pictures and that animal pictures are rarer.
 
 ## Network
 ```
@@ -92,7 +96,8 @@ Trainable params: 1,790,626
 Non-trainable params: 384
 _________________________________________________________________
 ```
-If someone knows how to make this better send pull request.
+
+I'm using a custom neural network for now.
 
 ## Disclaimer
 
